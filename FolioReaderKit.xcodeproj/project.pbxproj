@@ -102,7 +102,7 @@
 		3A27F0C81FD9C33A00D84A57 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F231D397BE900D56699 /* Highlight.swift */; };
 		3AD5EEB91D9433C100E42810 /* FolioReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0D699161D035FA2003B4CCD /* ReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D6990B1D035FA2003B4CCD /* ReaderKit.framework */; };
+		B0D699161D035FA2003B4CCD /* FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */; };
 		B0D6991B1D035FA2003B4CCD /* FolioReaderKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6991A1D035FA2003B4CCD /* FolioReaderKitTests.swift */; };
 		B0D69CC81D0387F7003B4CCD /* HADiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D69C441D0387F7003B4CCD /* HADiscreteSlider.swift */; };
 		B0D69CC91D0387F7003B4CCD /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D69C461D0387F7003B4CCD /* SMSegment.swift */; };
@@ -180,10 +180,10 @@
 		3A27F08A1FD9BE5800D84A57 /* FolioReaderUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderUserDefaults.swift; sourceTree = "<group>"; };
 		3A27F08B1FD9BE5800D84A57 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
-		B0D6990B1D035FA2003B4CCD /* ReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolioReaderKit.h; sourceTree = "<group>"; };
 		B0D699101D035FA2003B4CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0D699151D035FA2003B4CCD /* ReaderKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReaderKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D699151D035FA2003B4CCD /* FolioReaderKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolioReaderKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6991A1D035FA2003B4CCD /* FolioReaderKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioReaderKitTests.swift; sourceTree = "<group>"; };
 		B0D6991C1D035FA2003B4CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D69C441D0387F7003B4CCD /* HADiscreteSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADiscreteSlider.swift; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 			files = (
 				3A27F0C51FD9C31E00D84A57 /* Realm.framework in Frameworks */,
 				3A27F0C61FD9C31E00D84A57 /* RealmSwift.framework in Frameworks */,
-				B0D699161D035FA2003B4CCD /* ReaderKit.framework in Frameworks */,
+				B0D699161D035FA2003B4CCD /* FolioReaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +361,7 @@
 		B0D699011D035FA1003B4CCD = {
 			isa = PBXGroup;
 			children = (
-				B0D6990D1D035FA2003B4CCD /* ReaderKit */,
+				B0D6990D1D035FA2003B4CCD /* FolioReaderKit */,
 				B0D699191D035FA2003B4CCD /* FolioReaderKitTests */,
 				B0D6990C1D035FA2003B4CCD /* Products */,
 				1A65DDCA1DA73F8C0033C277 /* Frameworks */,
@@ -371,13 +371,13 @@
 		B0D6990C1D035FA2003B4CCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0D6990B1D035FA2003B4CCD /* ReaderKit.framework */,
-				B0D699151D035FA2003B4CCD /* ReaderKitTests.xctest */,
+				B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */,
+				B0D699151D035FA2003B4CCD /* FolioReaderKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0D6990D1D035FA2003B4CCD /* ReaderKit */ = {
+		B0D6990D1D035FA2003B4CCD /* FolioReaderKit */ = {
 			isa = PBXGroup;
 			children = (
 				1A958F031D397BE900D56699 /* Source */,
@@ -386,7 +386,7 @@
 				B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */,
 				B0D699101D035FA2003B4CCD /* Info.plist */,
 			);
-			path = ReaderKit;
+			path = FolioReaderKit;
 			sourceTree = "<group>";
 		};
 		B0D699191D035FA2003B4CCD /* FolioReaderKitTests */ = {
@@ -452,9 +452,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0D6990A1D035FA2003B4CCD /* ReaderKit */ = {
+		B0D6990A1D035FA2003B4CCD /* FolioReaderKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "ReaderKit" */;
+			buildConfigurationList = B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKit" */;
 			buildPhases = (
 				B0D699061D035FA2003B4CCD /* Sources */,
 				B0D699071D035FA2003B4CCD /* Frameworks */,
@@ -465,14 +465,14 @@
 			);
 			dependencies = (
 			);
-			name = ReaderKit;
+			name = FolioReaderKit;
 			productName = FolioReaderKit;
-			productReference = B0D6990B1D035FA2003B4CCD /* ReaderKit.framework */;
+			productReference = B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B0D699141D035FA2003B4CCD /* ReaderKitTests */ = {
+		B0D699141D035FA2003B4CCD /* FolioReaderKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D699221D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "ReaderKitTests" */;
+			buildConfigurationList = B0D699221D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKitTests" */;
 			buildPhases = (
 				B0D699111D035FA2003B4CCD /* Sources */,
 				B0D699121D035FA2003B4CCD /* Frameworks */,
@@ -483,9 +483,9 @@
 			dependencies = (
 				B0D699181D035FA2003B4CCD /* PBXTargetDependency */,
 			);
-			name = ReaderKitTests;
+			name = FolioReaderKitTests;
 			productName = FolioReaderKitTests;
-			productReference = B0D699151D035FA2003B4CCD /* ReaderKitTests.xctest */;
+			productReference = B0D699151D035FA2003B4CCD /* FolioReaderKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -509,7 +509,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "ReaderKit" */;
+			buildConfigurationList = B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "FolioReaderKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -522,8 +522,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0D6990A1D035FA2003B4CCD /* ReaderKit */,
-				B0D699141D035FA2003B4CCD /* ReaderKitTests */,
+				B0D6990A1D035FA2003B4CCD /* FolioReaderKit */,
+				B0D699141D035FA2003B4CCD /* FolioReaderKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -657,7 +657,7 @@
 /* Begin PBXTargetDependency section */
 		B0D699181D035FA2003B4CCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0D6990A1D035FA2003B4CCD /* ReaderKit */;
+			target = B0D6990A1D035FA2003B4CCD /* FolioReaderKit */;
 			targetProxy = B0D699171D035FA2003B4CCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -864,7 +864,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "ReaderKit" */ = {
+		B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "FolioReaderKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D6991D1D035FA2003B4CCD /* Debug */,
@@ -873,7 +873,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "ReaderKit" */ = {
+		B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D699201D035FA2003B4CCD /* Debug */,
@@ -882,7 +882,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0D699221D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "ReaderKitTests" */ = {
+		B0D699221D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0D699231D035FA2003B4CCD /* Debug */,
